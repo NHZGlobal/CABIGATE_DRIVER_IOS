@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="2CI-9N-dP3" customClass="JobTabIconCell" customModule="Cabigate" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="74" height="65"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="74" height="65"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zyi-x1-Gxk">
+                        <rect key="frame" x="0.0" y="1" width="74" height="64"/>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="4"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Tkn-VR-o25">
+                        <rect key="frame" x="26.5" y="15" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="20" id="EUF-rI-9Y8"/>
+                            <constraint firstAttribute="height" constant="20" id="RoA-LT-AHV"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QOU-3q-aac">
+                        <rect key="frame" x="2" y="40" width="70" height="14"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="70" id="xTS-d4-WNU"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="12"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="Tkn-VR-o25" firstAttribute="centerX" secondItem="zyi-x1-Gxk" secondAttribute="centerX" id="0rq-Rx-wMe"/>
+                <constraint firstItem="zyi-x1-Gxk" firstAttribute="leading" secondItem="2CI-9N-dP3" secondAttribute="leading" id="3EH-NV-OE9"/>
+                <constraint firstAttribute="trailing" secondItem="zyi-x1-Gxk" secondAttribute="trailing" id="7cf-tD-zl0"/>
+                <constraint firstItem="Tkn-VR-o25" firstAttribute="centerY" secondItem="zyi-x1-Gxk" secondAttribute="centerY" constant="-8" id="FZu-1d-7Dh"/>
+                <constraint firstItem="QOU-3q-aac" firstAttribute="centerX" secondItem="Tkn-VR-o25" secondAttribute="centerX" id="Qrk-Vv-LPN"/>
+                <constraint firstAttribute="bottom" secondItem="zyi-x1-Gxk" secondAttribute="bottom" id="Z8N-My-dTg"/>
+                <constraint firstItem="zyi-x1-Gxk" firstAttribute="top" secondItem="2CI-9N-dP3" secondAttribute="top" constant="1" id="oHs-qL-gwq"/>
+                <constraint firstItem="QOU-3q-aac" firstAttribute="top" secondItem="Tkn-VR-o25" secondAttribute="bottom" constant="5" id="yze-4P-DUE"/>
+            </constraints>
+            <size key="customSize" width="74" height="50"/>
+            <connections>
+                <outlet property="Titlelabel" destination="QOU-3q-aac" id="Q0A-Lx-rvF"/>
+                <outlet property="bgView" destination="zyi-x1-Gxk" id="WQX-3l-c1m"/>
+                <outlet property="iconImage" destination="Tkn-VR-o25" id="7DO-mm-BJX"/>
+            </connections>
+            <point key="canvasLocation" x="32" y="179"/>
+        </collectionViewCell>
+    </objects>
+</document>

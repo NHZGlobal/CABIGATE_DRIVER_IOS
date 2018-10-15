@@ -1,0 +1,170 @@
+PODS:
+  - Alamofire (4.6.0)
+  - Firebase/Core (4.7.0):
+    - FirebaseAnalytics (= 4.0.5)
+    - FirebaseCore (= 4.0.12)
+  - Firebase/Messaging (4.7.0):
+    - Firebase/Core
+    - FirebaseMessaging (= 2.0.7)
+  - FirebaseAnalytics (4.0.5):
+    - FirebaseCore (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+    - nanopb (~> 0.3)
+  - FirebaseCore (4.0.12):
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+  - FirebaseInstanceID (2.0.7)
+  - FirebaseMessaging (2.0.7):
+    - FirebaseAnalytics (~> 4.0)
+    - FirebaseCore (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - Protobuf (~> 3.1)
+  - GoogleMaps (2.5.0):
+    - GoogleMaps/Maps (= 2.5.0)
+  - GoogleMaps/Base (2.5.0)
+  - GoogleMaps/Maps (2.5.0):
+    - GoogleMaps/Base
+  - GooglePlacePicker (2.5.0):
+    - GoogleMaps (= 2.5.0)
+    - GooglePlaces (= 2.5.0)
+  - GooglePlaces (2.5.0):
+    - GoogleMaps/Base (= 2.5.0)
+  - GoogleToolboxForMac/Defines (2.1.3)
+  - GoogleToolboxForMac/Logger (2.1.3):
+    - GoogleToolboxForMac/Defines (= 2.1.3)
+  - "GoogleToolboxForMac/NSData+zlib (2.1.3)":
+    - GoogleToolboxForMac/Defines (= 2.1.3)
+  - IQKeyboardManagerSwift (5.0.6)
+  - JSQMessagesViewController (7.3.5):
+    - JSQSystemSoundPlayer (~> 2.0.1)
+  - JSQSystemSoundPlayer (2.0.1)
+  - MBProgressHUD (1.1.0)
+  - nanopb (0.3.8):
+    - nanopb/decode (= 0.3.8)
+    - nanopb/encode (= 0.3.8)
+  - nanopb/decode (0.3.8)
+  - nanopb/encode (0.3.8)
+  - ObjectMapper (2.2.9)
+  - ObjectMapper-RealmSwift (0.1.0):
+    - ObjectMapper (~> 2.2)
+    - RealmSwift (~> 2.3)
+  - Presentr (1.3)
+  - Protobuf (3.5.0)
+  - Realm (2.10.2):
+    - Realm/Headers (= 2.10.2)
+  - Realm/Headers (2.10.2)
+  - RealmSwift (2.10.2):
+    - Realm (= 2.10.2)
+  - RxSwift (4.0.0-rc.0)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - Socket.IO-Client-Swift (13.1.0):
+    - Starscream (~> 3.0.2)
+  - Starscream (3.0.2)
+  - SwiftMoment (0.7)
+  - SwiftValidator (4.0.0)
+  - SwiftyJSON (4.0.0)
+  - SwiftyTimer (2.0.0)
+  - XLPagerTabStrip (8.0.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.5)
+  - Firebase/Core
+  - Firebase/Messaging
+  - GoogleMaps
+  - GooglePlacePicker
+  - GooglePlaces
+  - IQKeyboardManagerSwift (~> 5.0.6)
+  - JSQMessagesViewController (~> 7.3)
+  - MBProgressHUD (~> 1.0)
+  - ObjectMapper-RealmSwift (~> 0.1)
+  - Presentr (~> 1.3)
+  - RealmSwift (~> 2.3)
+  - RxSwift (= 4.0.0-rc.0)
+  - SDWebImage (~> 3.8)
+  - Socket.IO-Client-Swift (~> 13.1)
+  - SwiftMoment (~> 0.7)
+  - SwiftValidator (from `https://github.com/jpotts18/SwiftValidator.git`, branch `master`)
+  - SwiftyJSON (~> 4.0)
+  - SwiftyTimer (~> 2.0)
+  - XLPagerTabStrip (~> 8.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseCore
+    - FirebaseInstanceID
+    - FirebaseMessaging
+    - GoogleMaps
+    - GooglePlacePicker
+    - GooglePlaces
+    - GoogleToolboxForMac
+    - IQKeyboardManagerSwift
+    - JSQMessagesViewController
+    - JSQSystemSoundPlayer
+    - MBProgressHUD
+    - nanopb
+    - ObjectMapper
+    - ObjectMapper-RealmSwift
+    - Presentr
+    - Protobuf
+    - Realm
+    - RealmSwift
+    - RxSwift
+    - SDWebImage
+    - Socket.IO-Client-Swift
+    - Starscream
+    - SwiftMoment
+    - SwiftyJSON
+    - SwiftyTimer
+    - XLPagerTabStrip
+
+EXTERNAL SOURCES:
+  SwiftValidator:
+    :branch: master
+    :git: https://github.com/jpotts18/SwiftValidator.git
+
+CHECKOUT OPTIONS:
+  SwiftValidator:
+    :commit: 6cff6cac3e02a617f7cf11323e18526a117d5673
+    :git: https://github.com/jpotts18/SwiftValidator.git
+
+SPEC CHECKSUMS:
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  Firebase: dbfb98ccec2dcfcd21ab9cc1b4981a3f3c8c5e26
+  FirebaseAnalytics: 5b02a63ead2c3f0259cfc7f15e053e440587ecf8
+  FirebaseCore: 6cf108b63997bc08c04a1ffa55a3ac0d71a59ffc
+  FirebaseInstanceID: 148c25c986c8699e67304b114e365713dce467f2
+  FirebaseMessaging: 1a11d1c0a9ed9b3f75a0685bb0ae5932e1062f5f
+  GoogleMaps: c087b8e5dfe87ca6ebf59adb9b4894a4146bec4f
+  GooglePlacePicker: 1573e644ab54564d95c2643edc0f29091609e966
+  GooglePlaces: dd70d9d71ea1c7944846afe67de3712c99b30a77
+  GoogleToolboxForMac: 2501e2ad72a52eb3dfe7bd9aee7dad11b858bd20
+  IQKeyboardManagerSwift: 02bfbb0dff71c66d0ab77d80d25dfce0c3717735
+  JSQMessagesViewController: 6587f56aedbcb150a8ba1d968e1ef58b1bc758b7
+  JSQSystemSoundPlayer: c5850e77a4363ffd374cd851154b9af93264ed8d
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
+  ObjectMapper: 63cfe41bc6f8e7c8f44344c49901b8ae7de14c52
+  ObjectMapper-RealmSwift: 1fed5add81f5cebb21d8a1f0f53753d7ceeb5d3e
+  Presentr: 3f0825a42cb32ecd8fc6b6d0b0de87d7d0b42482
+  Protobuf: 8a9838fba8dae3389230e1b7f8c104aa32389c03
+  Realm: 0ef72b837fb67e9f4b098bac771ddd72c7fdbb69
+  RealmSwift: 07a9ae0505091eda6b2ee7c190c3786d6e90a7b0
+  RxSwift: 1dd09ceb11531c39adff4efe23556b1484e16967
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  Socket.IO-Client-Swift: b67a96d6a9e5f271bceb93e99779d2cf77c74868
+  Starscream: b512c62f6706421221b5ceb2ba01a9f58aca5bea
+  SwiftMoment: dc6dd27012e267819104cbb03f74ff9192dd0b42
+  SwiftValidator: 25ded5ca1f10c05adf57f6ac82a72d28ac8d91af
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+  SwiftyTimer: 2efd74b060d69ad4f1496baf5bbedbe132125fcf
+  XLPagerTabStrip: d1ab378af0923320ec0b5eab11d7b2f803d31261
+
+PODFILE CHECKSUM: 73009792f0aaf655a5bc6328b29a7a7a202dd44c
+
+COCOAPODS: 1.5.3

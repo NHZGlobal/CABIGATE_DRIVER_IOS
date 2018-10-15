@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>126102324311-7hfqcmfckv928vo0bdvcfvtcoj8mmdnj.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.126102324311-7hfqcmfckv928vo0bdvcfvtcoj8mmdnj</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAlgppP-Kil0vheU3PvkYNq8rrSWRJ3CPg</string>
+	<key>GCM_SENDER_ID</key>
+	<string>126102324311</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.nhzglobal.Cabigate</string>
+	<key>PROJECT_ID</key>
+	<string>cabigate-driver-ios-aead9</string>
+	<key>STORAGE_BUCKET</key>
+	<string>cabigate-driver-ios-aead9.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:126102324311:ios:a60a7481f2cb4d88</string>
+	<key>DATABASE_URL</key>
+	<string>https://cabigate-driver-ios-aead9.firebaseio.com</string>
+</dict>
+</plist>
